@@ -20,7 +20,33 @@ h1{
     color: rgb(76, 219, 255);
     font-size: 50px;
 }
+h2{
+    font-family: "One Starry Night", cursive;
+    color:Black;
+    font-size:35px
+}
+h3{
+    font-family: "One Starry Night", cursive
+}
 
+p{
+    font-family: "One Starry Night", cursive;
+    color:Black;
+    font-size:20px
+}
+li {
+    list-style-position:inside;
+}
+.recipe {
+    width: 35%; /* Adjust as needed */
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+.recipe-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 10px 30px;
+  }
 
 nav ul {
     list-style-type: none;
