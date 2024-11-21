@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #4C83C9;
+    text-align:center
 }
 
 header {
@@ -26,7 +27,8 @@ h2{
     font-size:35px
 }
 h3{
-    font-family: "One Starry Night", cursive
+    font-family: "One Starry Night", cursive;
+    font-size:20px;
 }
 
 p{
@@ -70,7 +72,7 @@ nav ul li a {
 
 main {
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 footer {
@@ -83,5 +85,30 @@ footer {
     bottom: 0;
 }
 button{
-    background-color:#4C83C9
+    background-color:#4C83C9;
+    border-radius:10px;
+}
+.hover:hover::after{
+    content:" Click to reveal answer";
+    background-color:#F50A2D;
+}
+#Q1:active::after{
+    content:" It comes from Christ's Mass";
+    background-color:#F5D20A
+}
+#Q2:active::after{
+    content: " The Nutcracker.";
+    background-color:#F5D20A
+}
+#Q3:active::after{
+    content: " Germany";
+    background-color:#F5D20A
+}
+#Q4:active::after{
+    content: "Eggnog";
+    background-color:#F5D20A
+}
+#Q5:active::after{
+    content: "1857";
+    background-color:#F5D20A
 }
