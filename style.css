@@ -105,10 +105,10 @@ button{
     background-color:#F5D20A
 }
 #Q4:active::after{
-    content: "Eggnog";
+    content: " Eggnog";
     background-color:#F5D20A
 }
 #Q5:active::after{
-    content: "1857";
+    content: " 1857";
     background-color:#F5D20A
 }
